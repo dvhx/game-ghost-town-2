@@ -1,0 +1,168 @@
+body {
+    background-color: #140C1C;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.oversize {
+    position: fixed;
+    visibility: visible;
+    box-sizing: content-box;
+    border-top: 0.5cm solid transparent;
+    border-left: 0.5cm solid transparent;
+    border-bottom: 0.5cm solid transparent;
+    border-right: 0.5cm solid transparent;
+    /* outline: 1px solid lime; */
+}
+.oversize button {
+    border: 0;
+    width: 32px;
+    height: 32px;
+    box-shadow: 0.5ex 0.2ex 1ex rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: contain;
+    image-rendering: pixelated;
+    image-rendering: optimizespeed;
+}
+
+#herb {
+    right: 0;
+    top: 0;
+    border-top: 0.2cm solid transparent;
+    border-right: 0.2cm solid transparent;
+}
+#herbbutton {
+    background-image: url('../image/herb32.png');
+}
+
+#attack {
+    right: 0;
+    top: calc(50vh - 16px);
+    border-right: 0.2cm solid transparent;
+}
+#attackbutton {
+    background-image: url('../image/dagger32.png');
+}
+
+#minimap {
+    left: 0;
+    top: 0;
+    border-top: 0.2cm solid transparent;
+    border-left: 0.2cm solid transparent;
+}
+#minimapbutton {
+    background-image: url('../image/map32.png');
+}
+
+#fwd {
+    position: fixed;
+    top: calc(0.2cm + 32px + 1cm);
+    background-color: lime;
+    visibility: hidden;
+    opacity: 0.5;
+}
+
+#con {
+    position: fixed;
+    top: calc(0.2cm + 64px + 1cm);
+    background-color: aqua;
+    visibility: hidden;
+    opacity: 0.5;
+}
+
+#objective {
+    position: fixed;
+    top: 1ex;
+    width: 40vw;
+    left: calc(50% - 20vw);
+    box-shadow: 0.5ex 0.2ex 1ex rgba(0,0,0,0.5);
+    background-color: gray;
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+    border-radius: 1ex;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+}
+#objective h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-weight: normal;
+}
+#objective h1 {
+    font-weight: bold;
+    color: skyblue;
+}
+
+#health {
+    display: block;
+    margin-top: 0.2cm;
+    height: 1ex;
+    width: 32px;
+    box-shadow: 0.5ex 0.5ex 0.5ex rgba(0,0,0,0.5);
+}
+
+.gt_bubbles_next {
+    background-image: url('../image/next32.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 128px;
+    height: 64px;
+    border: 0;
+    color: transparent;
+    background-color: transparent;
+    right: 1ex;
+    bottom: 1ex;
+    filter: drop-shadow(0.5ex 0.5ex 0.5ex rgba(0,0,0,1));
+    outline: none;
+    image-rendering: pixelated;
+    image-rendering: optimizespeed;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6daa2c;
+    padding: 1cm;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    z-index: 10;
+}
+.menu h1, .menu h2 {
+    margin: 0;
+    text-align: center;
+}
+.menu .main {
+    font-size: large;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 1ex;
+}
+.menu .main .item {
+    display: block;
+    min-height: 1cm;
+    margin-bottom: 1ex;
+}
+.menu .main .item .subtitle {
+    color: gray;
+    color: rgba(0,0,0,0.5);
+}
+
