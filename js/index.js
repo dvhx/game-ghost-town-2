@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, requestAnimationFrame, window, setInterval, FuriganaBrowser, setTimeout
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 SC.walls = true;
 
 // duplicate tiles for single tile characters

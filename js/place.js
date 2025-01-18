@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.places = (function () {
     // Places on all maps

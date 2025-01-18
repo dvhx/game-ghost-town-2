@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window, requestAnimationFrame, Image
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.pause = false;
 

@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window, setTimeout
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.effect = function (aCharacter, aTilesAndDurations) {
     // Create single effect for a character (tiles: ['hit1', 300, 'hit2', 700])

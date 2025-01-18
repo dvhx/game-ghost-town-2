@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window, setTimeout
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.menu = function (aTitle, aMainSubtitle, aButtons, aCallback) {
     // Show ending menu

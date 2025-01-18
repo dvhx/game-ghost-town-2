@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.showToast = function (aMessage) {
     // Show small piece of text at the bottom of screen

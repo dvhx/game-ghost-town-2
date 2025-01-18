@@ -3,7 +3,7 @@
 // globals: document
 // require: none
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.isTouchDevice = function () {
     // Return true if device has touch screen (to show touchpad)

@@ -3,7 +3,7 @@
 "use strict";
 // globals: document, setTimeout, window
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.sound = (function () {
     // Universal multi-channel sound manager

@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.gallery = function (aUrl, aTitle, aAuthor, aCallback, aTransparentBackground) {
     // Show one image in gallery

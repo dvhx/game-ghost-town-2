@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window, setTimeout
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.bubble = function (aContext, aText, aX, aY, aColor, aPreviousBubble) {
     // Draw speech bubble

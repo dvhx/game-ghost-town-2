@@ -2,7 +2,7 @@
 "use strict";
 // globals: document, window, setTimeout
 
-var SC = window.SC || {}
+var SC = window.SC || {};
 
 SC.cmds = {
     // Custom commands
